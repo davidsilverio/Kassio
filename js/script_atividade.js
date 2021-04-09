@@ -5,7 +5,7 @@ $(function() {
 		$btn: $(".todo-list .btn"),
 		
 		init: function() {
-			this.$input.on("keyup", (e) => {
+			let tarefa = this.$input.on("keyup", (e) => {
 				
 			});
 		}
